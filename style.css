@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+}
+
+.app {
+  background: url('./images/live_crowd.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.pads-container {
+    display: flex;
+    background-color: rgba(0,0,0, 0.4);
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.set {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pad {
+  height: 6em;
+  width: 6em;
+  border: 1px solid #EFEFEF;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  transition: all 0.07s;
+}
+
+
+
+.pad h4 {
+  font-size: 1em;
+  color: orange;
+  font-weight: bold;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #FFC600;
+  text-shadow: -2 -2 -5 #888;
+}
